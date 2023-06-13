@@ -1,0 +1,16 @@
+---
+import Sidebar from "../components/Sidebar.svelte";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="akit">
+    <main class="dark:bg-slate-900">
+        <Sidebar client:visible />
+    </main>
+</Layout>
+
+<style>
+    :root {
+        --astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+    }
+</style>
