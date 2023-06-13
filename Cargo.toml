@@ -17,7 +17,7 @@ serde = { version = "*" , features = ["derive"]}
 anyhow = "1.0.70"
 futures-util = "0.3.28"
 bson = "2.6.1"
-pbkdf2 = "0.10"
+pbkdf2 = "0.11"
 rand = "0.8.5"
 actix-files = "0.6.2"
 env_logger = "0.10.0"
