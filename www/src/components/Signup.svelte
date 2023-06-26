@@ -9,7 +9,7 @@
         if (username === "" || password === "") return;
         const { location } = window;
         const res = await fetch(
-            `http://${location.host}/api/signup/${username}/${password}`,
+            `http://${location.host}/api/signup/${email}/${username}/${password}`,
             {
                 method: "GET",
             }

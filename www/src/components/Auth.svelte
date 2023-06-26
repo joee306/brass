@@ -39,7 +39,7 @@
             <input
                 bind:value={username}
                 class="m-2 p-1 rounded-lg outline-none dark:bg-gray-800 dark:text-slate-100"
-                placeholder="Your Username or Email"
+                placeholder="Your Email"
             />
             <input
                 type="password"
