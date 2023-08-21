@@ -11,7 +11,7 @@ actix-web = "4.3.1"
 actix-web-actors = "4.2.0"
 actix-cors = "0.6.4"
 actix-session = { version = "0.7.2", features= ["cookie-session"] }
-mongodb = "2.5.0"
+mongodb = "2.6.1"
 serde_json = "1.0.96"
 serde = { version = "*" , features = ["derive"]}
 anyhow = "1.0.70"
